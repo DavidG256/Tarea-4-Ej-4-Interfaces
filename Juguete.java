@@ -16,4 +16,10 @@ public class Juguete extends Bienes implements Imponible{
                 ", precio=" + precio +
                 '}';
     }
+
+
+    @Override
+    public double CalculoImpuestos() {
+        return precio * TasaImpuestos;
+    }
 }

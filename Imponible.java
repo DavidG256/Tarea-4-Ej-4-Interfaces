@@ -1,12 +1,11 @@
 package Ejercicio4;
 
 public interface Imponible {
-    public double impuestos = 0.6;
+    public double TasaImpuestos = 0.6;
 
-     static double CalculoImpuestos (){
-         
-         return CalculoImpuestos();
+    double CalculoImpuestos ();
 
-    }
+
+
 
 }
